@@ -83,7 +83,7 @@
         "CSV",
         "TXT"
       ],
-      "size": "500",
+      "size": "436",
       "unit": {
         "value": "GB"
       },
@@ -365,7 +365,7 @@
       "category": "files",
       "values": [
         {
-          "value": "81809"
+          "value": "69878"
         }
       ]
     },
