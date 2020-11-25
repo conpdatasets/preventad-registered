@@ -1,0 +1,12 @@
+[submodule "clinical-data"]
+	path = clinical-data
+	url = ./clinical-data
+	datalad-id = e9315f36-2a83-11eb-935d-525400a81410
+[submodule "images-in-BIDS"]
+	path = images-in-BIDS
+	url = ./images-in-BIDS
+	datalad-id = f7720564-2a83-11eb-935d-525400a81410
+[submodule "images-in-MINC"]
+	path = images-in-MINC
+	url = ./images-in-MINC
+	datalad-id = f175f12a-2a83-11eb-935d-525400a81410
