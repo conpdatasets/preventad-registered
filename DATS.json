@@ -85,7 +85,7 @@
         "TSV",
         "TXT"
       ],
-      "size": "436",
+      "size": 436,
       "unit": {
         "value": "GB"
       },
@@ -494,7 +494,7 @@
             "CSV",
             "TXT"
           ],
-          "size": "2.7",
+          "size": 2.7,
           "unit": {
             "value": "MB"
           },
@@ -874,7 +874,7 @@
             "TSV",
             "JSON"
           ],
-          "size": "215",
+          "size": 215,
           "unit": {
             "value": "GB"
           },
@@ -1174,7 +1174,7 @@
             "MINC",
             "JSON"
           ],
-          "size": "221",
+          "size": 221,
           "unit": {
             "value": "GB"
           },
