@@ -2,8 +2,8 @@
   "title": "PREVENT-AD registered data",
   "description": "Longitudinal study of pre-symptomatic Alzheimer's Disease. Longitudinal data from 348 participants are available. This includes multi-modal MRI images, neuropsychological tests, neurosensory assessments, general medical history, genetics and cerebrospinal fluid proteins levels.",
   "identifier": {
-    "identifier": "",
-    "identifierSource": ""
+    "identifier": "https://doi.org/10.5281/zenodo.4298796",
+    "identifierSource": "Zenodo DOI"
   },
   "dates": [
     {
