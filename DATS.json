@@ -12,6 +12,12 @@
         "value": "Release Date"
       }
     },
+    { 
+      "date": "2020-12-15",
+      "type": {
+        "value": "Last Update Date"
+      }
+    },
     {
       "date": "2011-11-01",
       "type": {
@@ -67,7 +73,7 @@
       }
     }
   ],
-  "version": "1.0",
+  "version": "2.0",
   "privacy": "Registered Access",
   "licenses": [
     {
@@ -85,7 +91,7 @@
         "TSV",
         "TXT"
       ],
-      "size": 436,
+      "size": 505,
       "unit": {
         "value": "GB"
       },
@@ -366,7 +372,7 @@
       "category": "files",
       "values": [
         {
-          "value": "69571"
+          "value": "80500"
         }
       ]
     },
@@ -508,7 +514,7 @@
           }
         }
       ],
-      "version": "1.0",
+      "version": "2.0",
       "privacy": "Registered Access",
       "licenses": [
         {
@@ -836,6 +842,12 @@
             "value": "Release Date"
           }
         },
+        { 
+          "date": "2020-12-15",
+          "type": {
+            "value": "Last Update Date"
+          }
+        },
         {
           "date": "2011-11-01",
           "type": {
@@ -874,7 +886,7 @@
             "TSV",
             "JSON"
           ],
-          "size": 215,
+          "size": 253,
           "unit": {
             "value": "GB"
           },
@@ -888,7 +900,7 @@
           }
         }
       ],
-      "version": "1.0",
+      "version": "2.0",
       "privacy": "Registered Access",
       "licenses": [
         {
@@ -1058,7 +1070,7 @@
           "category": "subjects",
           "values": [
             {
-              "value": "307"
+              "value": "344"
             }
           ]
         },
@@ -1066,7 +1078,7 @@
           "category": "files",
           "values": [
             {
-              "value": "41244"
+              "value": "48232"
             }
           ]
         },
@@ -1138,6 +1150,12 @@
             "value": "Release Date"
           }
         },
+		{
+          "date": "2020-12-15",
+          "type": {
+            "value": "Last Update Date"
+          }
+        },
         {
           "date": "2011-11-01",
           "type": {
@@ -1174,7 +1192,7 @@
             "MINC",
             "JSON"
           ],
-          "size": 221,
+          "size": 252,
           "unit": {
             "value": "GB"
           },
@@ -1188,7 +1206,7 @@
           }
         }
       ],
-      "version": "1.0",
+      "version": "2.0",
       "privacy": "Registered Access",
       "licenses": [
         {
@@ -1346,7 +1364,7 @@
           "category": "subjects",
           "values": [
             {
-              "value": "307"
+              "value": "344"
             }
           ]
         },
@@ -1354,7 +1372,7 @@
           "category": "files",
           "values": [
             {
-              "value": "28616"
+              "value": "32250"
             }
           ]
         },
