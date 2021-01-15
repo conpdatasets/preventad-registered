@@ -9,25 +9,25 @@
     {
       "date": "2020-11-30",
       "type": {
-        "value": "Release Date"
+        "value": "release date"
       }
     },
     { 
       "date": "2020-12-15",
       "type": {
-        "value": "Last Update Date"
+        "value": "last updated date"
       }
     },
     {
       "date": "2011-11-01",
       "type": {
-        "value": "Start Date"
+        "value": "start date"
       }
     },
     {
       "date": "2020-03-10",
       "type": {
-        "value": "End Date"
+        "value": "end date"
       }
     }
   ],
@@ -157,7 +157,7 @@
         {
           "date": "2016-09-01",
           "type": {
-            "value": "Publication Date"
+            "value": "publication date"
           }
         }
       ],
@@ -441,19 +441,19 @@
         {
           "date": "2020-11-30",
           "type": {
-            "value": "Release Date"
+            "value": "release date"
           }
         },
         {
           "date": "2011-11-01",
           "type": {
-            "value": "Start Date"
+            "value": "start date"
           }
         },
         {
           "date": "2020-03-10",
           "type": {
-            "value": "End Date"
+            "value": "end date"
           }
         }
       ],
@@ -573,7 +573,7 @@
             {
               "date": "2016-09-01",
               "type": {
-                "value": "Publication Date"
+                "value": "publication date"
               }
             }
           ],
@@ -839,25 +839,25 @@
         {
           "date": "2020-11-30",
           "type": {
-            "value": "Release Date"
+            "value": "release date"
           }
         },
         { 
           "date": "2020-12-15",
           "type": {
-            "value": "Last Update Date"
+            "value": "last updated date"
           }
         },
         {
           "date": "2011-11-01",
           "type": {
-            "value": "Start Date"
+            "value": "start date"
           }
         },
         {
           "date": "2020-03-10",
           "type": {
-            "value": "End Date"
+            "value": "end date"
           }
         }
       ],
@@ -959,7 +959,7 @@
             {
               "date": "2016-09-01",
               "type": {
-                "value": "Publication Date"
+                "value": "publication date"
               }
             }
           ],
@@ -1147,25 +1147,25 @@
         {
           "date": "2020-11-30",
           "type": {
-            "value": "Release Date"
+            "value": "release date"
           }
         },
         {
           "date": "2020-12-15",
           "type": {
-            "value": "Last Update Date"
+            "value": "last updated date"
           }
         },
         {
           "date": "2011-11-01",
           "type": {
-            "value": "Start Date"
+            "value": "start date"
           }
         },
         {
           "date": "2020-03-10",
           "type": {
-            "value": "End Date"
+            "value": "end date"
           }
         }
       ],
@@ -1265,7 +1265,7 @@
             {
               "date": "2016-09-01",
               "type": {
-                "value": "Publication Date"
+                "value": "publication date"
               }
             }
           ],
