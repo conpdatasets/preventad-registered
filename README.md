@@ -96,7 +96,7 @@ preventad-registered
 - LORIS registered database instance with the PREVENT-AD dataset: https://registeredpreventad.loris.ca
 - PREVENT-AD study web site: https://prevent-alzheimer.net/
 - PREVENT-AD Twitter account: https://twitter.com/prevent_ad
-- Dataset DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4328110.svg)](https://doi.org/10.5281/zenodo.4328110)
+- Dataset DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4535262.svg)](https://doi.org/10.5281/zenodo.4535262)
 
 
 
