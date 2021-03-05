@@ -44,37 +44,37 @@
     },
     {
       "information": {
-        "value": "Demographics"
+        "value": "demographics"
       }
     },
     {
       "information": {
-        "value": "Neuropsychological Tests"
+        "value": "neuropsychological tests"
       }
     },
     {
       "information": {
-        "value": "Neurosensory Assessments"
+        "value": "neurosensory assessments"
       }
     },
     {
       "information": {
-        "value": "General Medical History"
+        "value": "general medical history"
       }
     },
     {
       "information": {
-        "value": "Genetics"
+        "value": "genetics"
       }
     },
     {
       "information": {
-        "value": "Cerebrospinal Fluid Proteins Levels"
+        "value": "cerebrospinal fluid proteins levels"
       }
     }
   ],
   "version": "2.1",
-  "privacy": "Registered Access",
+  "privacy": "registered",
   "licenses": [
     {
       "name": "https://registeredpreventad.loris.ca/images/PREVENT-AD_Terms_of_Use.png"
@@ -169,10 +169,17 @@
   ],
   "isAbout": [
     {
-      "name": "Alzheimer's"
+      "name": "Alzheimer's disease"
     },
     {
-      "name": "Older adults human"
+      "identifier": {
+        "identifier": "9606",
+        "identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606"
+      },
+      "name":"Homo sapiens"
+    },
+    {
+      "name": "older adult"
     }
   ],
   "spatialCoverage": [
@@ -184,121 +191,121 @@
   "dimensions": [
     {
       "name": {
-        "value": "Age at MRI"
+        "value": "age at MRI"
       },
       "description": "Age in months at the time of the MRI session"
     },
     {
       "name": {
-        "value": "Test Language"
+        "value": "test language"
       },
       "description": "Language in which the participant choose to perform the tests in the research project"
     },
     {
       "name": {
-        "value": "Handedness Interpretation"
+        "value": "handedness interpretation"
       },
       "description": "The Edinburgh Handedness Inventory test result interpretation establishing hand dominance (right-handed, left-handed or ambidextrous)"
     },
     {
       "name": {
-        "value": "Handedness Score"
+        "value": "handedness score"
       },
       "description": "The Edinburgh Handedness Inventory test score results"
     },
     {
       "name": {
-        "value": "Structural MRI"
+        "value": "structural MRI"
       },
       "description": "T1W, FLAIR, T2*, multi-echo T2*, T2W, MP2RAGE, DWI 65 directions"
     },
     {
       "name": {
-        "value": "Functional MRI"
+        "value": "functional MRI"
       },
       "description": "single-echo pCASL, resting BOLD, encoding/retrieval tasks BOLD"
     },
     {
       "name": {
-        "value": "AD8 Dementia Screening Interview"
+        "value": "AD8 dementia screening interview"
       },
       "description": "AD8 Individual Answers and Total Score"
     },
     {
       "name": {
-        "value": "Central Auditory Processing Evaluation"
+        "value": "central auditory processing evaluation"
       },
       "description": "Test Scores"
     },
     {
       "name": {
-        "value": "Clinical Information"
+        "value": "clinical information"
       },
       "description": "Blood Pressure, Pulse, Weight"
     },
     {
       "name": {
-        "value": "CSF Protein Levels"
+        "value": "CSF protein levels"
       },
       "description": "Total Tau (t-tau), Tau Phosphorylated at Thr181 (P-tau), Beta-amyloid 1-42, Alipoprotein E, Granulocyte Colony Stimulating Factor (GCSF), Interleukin 15, Interleukin 8, Vascular Endothelial Growth Factor and Proprotein Convertase Subtilisin/Kexin type 9 Concentrations"
     },
     {
       "name": {
-        "value": "Demographics"
+        "value": "demographics"
       },
       "description": "Probable MCI Conversion, Sex, Mother Tongue, Ethnicity, Education Level, Profession, Height, Family History of AD"
     },
     {
       "name": {
-        "value": "Cardiovascular Risk Factors, Aging, and Incidence of Dementia (CAIDE) Dementia Risk Score"
+        "value": "cardiovascular risk factors, aging, and incidence of dementia (CAIDE) dementia risk score"
       },
       "description": "Sub-scores and Total Score"
     },
     {
       "name": {
-        "value": "Clinical Dementia Rating"
+        "value": "clinical dementia rating"
       },
       "description": "Total Score"
     },
     {
       "name": {
-        "value": "Montreal Cognitive Assessment (MOCA)"
+        "value": "Montreal cognitive assessment (MOCA)"
       },
       "description": "Sub-scores and Total Score"
     },
     {
       "name": {
-        "value": "Medical History"
+        "value": "medical history"
       },
       "description": "Treatment History of Hypertension, Hyperlipidemia, Diabetes. Questions on Possible Past Diagnosis of Cancer, Depression, Osteoporosis, Migraine, Asthma, Atrial Fibrillation and Arthritis."
     },
     {
       "name": {
-        "value": "Genetics"
+        "value": "genetics"
       },
       "description": "APOE, BCHE, BDNF, HMGCR, TLR4, PPP2R1A, CDK5RAP2"
     },
     {
       "name": {
-        "value": "Lab results"
+        "value": "lab results"
       },
       "description": "HbA1c, Thyroid Stimulating Hormone (TSH), Vitamin B12, Non-Fasting High Density Lipoprotein (HDL) Cholesterol, Non-Fasting Low Density Lipoprotein (LDL) Cholesterol"
     },
     {
       "name": {
-        "value": "Medication User"
+        "value": "medication user"
       },
       "description": "List of Medication Taken Regularly (Sustained Use) and List of Medication Taken On As Needed Basis (PRN)"
     },
     {
       "name": {
-        "value": "Repeatable Battery for the Assessment of Neuropsychological Status (RBANS)"
+        "value": "repeatable battery for the assessment of neuropsychological status (RBANS)"
       },
       "description": "Sub-scores and Total Score"
     },
     {
       "name": {
-        "value": "Smell Identification"
+        "value": "smell identification"
       },
       "description": "University of Pennsylvania Smell Identification Test (UPSIT) Scores"
     }
@@ -332,31 +339,28 @@
   ],
   "keywords": [
     {
-      "value": "Prevention"
+      "value": "prevention"
     },
     {
-      "value": "Alzheimer's disease"
+      "value": "structural MRI"
     },
     {
-      "value": "Structural MRI"
+      "value": "functional MRI"
     },
     {
-      "value": "Functional MRI"
+      "value": "longitudinal"
     },
     {
-      "value": "Longitudinal"
-    },
-    {
-      "value": "Cognition"
+      "value": "cognition"
     },
     {
       "value": "CSF protein levels"
     },
     {
-      "value": "Genetics"
+      "value": "genetics"
     },
     {
-      "value": "Neurosensory"
+      "value": "neurosensory"
     }
   ],
   "extraProperties": [
@@ -465,32 +469,32 @@
       "types": [
         {
           "information": {
-            "value": "Demographics"
+            "value": "demographics"
           }
         },
         {
           "information": {
-            "value": "Neuropsychological Tests"
+            "value": "neuropsychological tests"
           }
         },
         {
           "information": {
-            "value": "Neurosensory Assessments"
+            "value": "neurosensory assessments"
           }
         },
         {
           "information": {
-            "value": "General Medical History"
+            "value": "general medical history"
           }
         },
         {
           "information": {
-            "value": "Genetics"
+            "value": "genetics"
           }
         },
         {
           "information": {
-            "value": "Cerebrospinal Fluid Proteins Levels"
+            "value": "cerebrospinal fluid proteins levels"
           }
         }
       ],
@@ -515,7 +519,7 @@
         }
       ],
       "version": "2.0",
-      "privacy": "Registered Access",
+      "privacy": "registered",
       "licenses": [
         {
           "name": "https://registeredpreventad.loris.ca/images/PREVENT-AD_Terms_of_Use.png"
@@ -585,10 +589,17 @@
       ],
       "isAbout": [
         {
-          "name": "Alzheimer's"
+          "name": "Alzheimer's disease"
         },
         {
-          "name": "Older adults human"
+          "identifier": {
+            "identifier": "9606",
+            "identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606"
+          },
+          "name":"Homo sapiens"
+        },
+        {
+          "name": "older adult"
         }
       ],
       "spatialCoverage": [
@@ -736,25 +747,22 @@
       ],
       "keywords": [
         {
-          "value": "Prevention"
+          "value": "prevention"
         },
         {
-          "value": "Alzheimer's disease"
+          "value": "longitudinal"
         },
         {
-          "value": "Longitudinal"
-        },
-        {
-          "value": "Cognition"
+          "value": "cognition"
         },
         {
           "value": "CSF protein levels"
         },
         {
-          "value": "Genetics"
+          "value": "genetics"
         },
         {
-          "value": "Neurosensory"
+          "value": "neurosensory"
         }
       ],
       "extraProperties": [
@@ -874,7 +882,7 @@
         },
         {
           "information": {
-            "value": "Basic Demographics"
+            "value": "basic demographics"
           }
         }
       ],
@@ -901,7 +909,7 @@
         }
       ],
       "version": "2.0",
-      "privacy": "Registered Access",
+      "privacy": "registered",
       "licenses": [
         {
           "name": "https://registeredpreventad.loris.ca/images/PREVENT-AD_Terms_of_Use.png"
@@ -971,10 +979,17 @@
       ],
       "isAbout": [
         {
-          "name": "Alzheimer's"
+          "name": "Alzheimer's disease"
         },
         {
-          "name": "Older adults human"
+          "identifier": {
+            "identifier": "9606",
+            "identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606"
+          },
+          "name":"Homo sapiens"
+        },
+        {
+          "name": "older adult"
         }
       ],
       "spatialCoverage": [
@@ -986,37 +1001,37 @@
       "dimensions": [
         {
           "name": {
-            "value": "Age at MRI"
+            "value": "age at MRI"
           },
           "description": "Age in months at the time of the MRI session"
         },
         {
           "name": {
-            "value": "Test Language"
+            "value": "test language"
           },
           "description": "Language in which the participant choose to perform the tests in the research project"
         },
         {
           "name": {
-            "value": "Handedness Interpretation"
+            "value": "handedness interpretation"
           },
           "description": "The Edinburgh Handedness Inventory test result interpretation establishing hand dominance (right-handed, left-handed or ambidextrous)"
         },
         {
           "name": {
-            "value": "Handedness Score"
+            "value": "handedness score"
           },
           "description": "The Edinburgh Handedness Inventory test score results"
         },
         {
           "name": {
-            "value": "Structural MRI"
+            "value": "structural MRI"
           },
           "description": "T1W, FLAIR, T2*, multi-echo T2*, T2W, MP2RAGE, DWI 65 directions"
         },
         {
           "name": {
-            "value": "Functional MRI"
+            "value": "functional MRI"
           },
           "description": "single-echo pCASL, resting BOLD, encoding/retrieval tasks BOLD"
         }
@@ -1050,19 +1065,16 @@
       ],
       "keywords": [
         {
-          "value": "Prevention"
+          "value": "prevention"
         },
         {
-          "value": "Alzheimer's disease"
+          "value": "structural MRI"
         },
         {
-          "value": "Structural MRI"
+          "value": "functional MRI"
         },
         {
-          "value": "Functional MRI"
-        },
-        {
-          "value": "Longitudinal"
+          "value": "longitudinal"
         }
       ],
       "extraProperties": [
@@ -1182,7 +1194,7 @@
         },
         {
           "information": {
-            "value": "Basic Demographics"
+            "value": "basic demographics"
           }
         }
       ],
@@ -1207,7 +1219,7 @@
         }
       ],
       "version": "2.0",
-      "privacy": "Registered Access",
+      "privacy": "registered",
       "licenses": [
         {
           "name": "https://registeredpreventad.loris.ca/images/PREVENT-AD_Terms_of_Use.png"
@@ -1277,10 +1289,17 @@
       ],
       "isAbout": [
         {
-          "name": "Alzheimer's"
+          "name": "Alzheimer's disease"
         },
         {
-          "name": "Older adults human"
+          "identifier": {
+            "identifier": "9606",
+            "identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606"
+          },
+          "name":"Homo sapiens"
+        },
+        {
+          "name": "older adult"
         }
       ],
       "spatialCoverage": [
@@ -1292,25 +1311,25 @@
       "dimensions": [
         {
           "name": {
-            "value": "Age at MRI"
+            "value": "age at MRI"
           },
           "description": "Age in months at the time of the MRI session"
         },
         {
           "name": {
-            "value": "Test Language"
+            "value": "test language"
           },
           "description": "Language in which the participant choose to perform the tests in the research project"
         },
         {
           "name": {
-            "value": "Structural MRI"
+            "value": "structural MRI"
           },
           "description": "T1W, FLAIR, T2*, multi-echo T2*, T2W, MP2RAGE, DWI 65 directions"
         },
         {
           "name": {
-            "value": "Functional MRI"
+            "value": "functional MRI"
           },
           "description": "single-echo pCASL, resting BOLD, encoding/retrieval tasks BOLD"
         }
@@ -1344,19 +1363,16 @@
       ],
       "keywords": [
         {
-          "value": "Prevention"
+          "value": "prevention"
         },
         {
-          "value": "Alzheimer's disease"
+          "value": "structural MRI"
         },
         {
-          "value": "Structural MRI"
+          "value": "functional MRI"
         },
         {
-          "value": "Functional MRI"
-        },
-        {
-          "value": "Longitudinal"
+          "value": "longitudinal"
         }
       ],
       "extraProperties": [
