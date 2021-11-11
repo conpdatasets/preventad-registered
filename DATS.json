@@ -12,7 +12,7 @@
         "value": "release date"
       }
     },
-    { 
+    {
       "date": "2021-02-11",
       "type": {
         "value": "last update date"
@@ -173,8 +173,8 @@
     },
     {
       "identifier": {
-        "identifier": "9606",
-        "identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606"
+        "identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+		"identifierSource": "NCBI Taxonomy Database"
       },
       "name":"Homo sapiens"
     },
@@ -593,8 +593,8 @@
         },
         {
           "identifier": {
-            "identifier": "9606",
-            "identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606"
+            "identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+			"identifierSource": "NCBI Taxonomy Database"
           },
           "name":"Homo sapiens"
         },
@@ -850,7 +850,7 @@
             "value": "release date"
           }
         },
-        { 
+        {
           "date": "2020-12-15",
           "type": {
             "value": "last update date"
@@ -983,10 +983,10 @@
         },
         {
           "identifier": {
-            "identifier": "9606",
-            "identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606"
+            "identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+			"identifierSource": "NCBI Taxonomy Database"
           },
-          "name":"Homo sapiens"
+          "name": "Homo sapiens"
         },
         {
           "name": "older adult"
@@ -1293,8 +1293,8 @@
         },
         {
           "identifier": {
-            "identifier": "9606",
-            "identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606"
+            "identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+			"identifierSource": "NCBI Taxonomy Database"
           },
           "name":"Homo sapiens"
         },
