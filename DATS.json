@@ -1,0 +1,1460 @@
+{
+  "title": "PREVENT-AD registered data",
+  "description": "Longitudinal study of pre-symptomatic Alzheimer's Disease. Longitudinal data from 348 participants are available. This includes multi-modal MRI images, neuropsychological tests, neurosensory assessments, general medical history, genetics and cerebrospinal fluid proteins levels.",
+  "identifier": {
+    "identifier": "http://doi.org/10.5281/zenodo.4298795",
+    "identifierSource": "Zenodo DOI"
+  },
+  "dates": [
+    {
+      "date": "2020-11-30",
+      "type": {
+        "value": "release date"
+      }
+    },
+    {
+      "date": "2021-02-11",
+      "type": {
+        "value": "last update date"
+      }
+    },
+    {
+      "date": "2011-11-01",
+      "type": {
+        "value": "start date"
+      }
+    },
+    {
+      "date": "2020-03-10",
+      "type": {
+        "value": "end date"
+      }
+    }
+  ],
+  "creators": [
+    {
+      "name": "StoP-AD Center - Douglas Mental Health University Institute"
+    }
+  ],
+  "types": [
+    {
+      "information": {
+        "value": "MRI",
+		"valueIRI": "http://uri.interlex.org/ilx_0778945"
+      }
+    },
+    {
+      "information": {
+        "value": "demographics",
+		"valueIRI": "http://uri.interlex.org/ilx_0103016"
+      }
+    },
+    {
+      "information": {
+        "value": "neuropsychological tests",
+		"valueIRI": "http://uri.interlex.org/ilx_0485663"
+      }
+    },
+    {
+      "information": {
+        "value": "neurosensory assessments"
+      }
+    },
+    {
+      "information": {
+        "value": "general medical history",
+		"valueIRI": "http://uri.interlex.org/ilx_0100311"
+      }
+    },
+    {
+      "information": {
+        "value": "genetics",
+		"valueIRI": "http://uri.interlex.org/ilx_0104598"
+      }
+    },
+    {
+      "information": {
+        "value": "cerebrospinal fluid proteins levels",
+		"valueIRI": "http://uri.interlex.org/ilx_0483441"
+      }
+    }
+  ],
+  "version": "2.1",
+  "privacy": "registered",
+  "licenses": [
+    {
+      "name": "https://registeredpreventad.loris.ca/images/PREVENT-AD_Terms_of_Use.png"
+    }
+  ],
+  "distributions": [
+    {
+      "formats": [
+        "MINC",
+        "JSON",
+        "NIfTI",
+        "BIDS",
+        "CSV",
+        "TSV",
+        "TXT"
+      ],
+      "size": 556,
+      "unit": {
+        "value": "GB"
+      },
+      "access": {
+        "landingPage": "https://registeredpreventad.loris.ca",
+        "authorizations": [
+          {
+            "value": "private"
+          }
+        ]
+      }
+    }
+  ],
+  "primaryPublications": [
+    {
+      "title": "Rationale and Structure for a new Centre for Studies on Prevention of Alzheimer's Disease (StoP-AD)",
+      "publicationVenue": "The Journal of Prevention of Alzheimer's Disease - JPAD Volume 3, Number 4, 2016",
+      "authors": [
+        {
+          "fullName": "John C.S. Breitner",
+          "firstName": "John",
+          "middleInitial": "C.S.",
+          "lastName": "Breitner",
+          "affiliations": [
+            {
+              "name": "PREVENT-AD Research Group"
+            }
+          ]
+        },
+        {
+          "fullName": "Judes Poirier",
+          "lastName": "Poirier",
+          "affiliations": [
+            {
+              "name": "PREVENT-AD Research Group"
+            }
+          ]
+        },
+        {
+          "fullName": "Pierre E. Etienne",
+          "firstName": "Pierre",
+          "middleInitial": "E.",
+          "lastName": "Etienne",
+          "affiliations": [
+            {
+              "name": "PREVENT-AD Research Group"
+            }
+          ]
+        },
+        {
+          "fullName": "Jeannie M Leoutsakos",
+          "firstName": "Jeannie",
+          "middleInitial": "M",
+          "lastName": "Leoutsakos",
+          "affiliations": [
+            {
+              "name": "PREVENT-AD Research Group"
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "date": "2016-09-01",
+          "type": {
+            "value": "publication date"
+          }
+        }
+      ],
+      "identifier": {
+        "identifier": "http://dx.doi.org/10.14283/jpad.2016.121",
+        "identifierSource": "International DOI Foundation"
+      }
+    }
+  ],
+  "isAbout": [
+    {
+      "name": "Alzheimer's disease"
+    },
+    {
+      "identifier": {
+        "identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+		"identifierSource": "NCBI Taxonomy Database"
+      },
+      "name":"Homo sapiens"
+    },
+    {
+      "name": "older adult"
+    }
+  ],
+  "spatialCoverage": [
+    {
+      "name": "Québec (province)",
+      "description": "Province of Québec, Canada"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": {
+        "value": "age at MRI"
+      },
+      "description": "Age in months at the time of the MRI session"
+    },
+    {
+      "name": {
+        "value": "test language"
+      },
+      "description": "Language in which the participant choose to perform the tests in the research project"
+    },
+    {
+      "name": {
+        "value": "handedness interpretation"
+      },
+      "description": "The Edinburgh Handedness Inventory test result interpretation establishing hand dominance (right-handed, left-handed or ambidextrous)"
+    },
+    {
+      "name": {
+        "value": "handedness score"
+      },
+      "description": "The Edinburgh Handedness Inventory test score results"
+    },
+    {
+      "name": {
+        "value": "structural MRI"
+      },
+      "description": "T1W, FLAIR, T2*, multi-echo T2*, T2W, MP2RAGE, DWI 65 directions"
+    },
+    {
+      "name": {
+        "value": "functional MRI"
+      },
+      "description": "single-echo pCASL, resting BOLD, encoding/retrieval tasks BOLD"
+    },
+    {
+      "name": {
+        "value": "AD8 dementia screening interview"
+      },
+      "description": "AD8 Individual Answers and Total Score"
+    },
+    {
+      "name": {
+        "value": "central auditory processing evaluation"
+      },
+      "description": "Test Scores"
+    },
+    {
+      "name": {
+        "value": "clinical information"
+      },
+      "description": "Blood Pressure, Pulse, Weight"
+    },
+    {
+      "name": {
+        "value": "CSF protein levels"
+      },
+      "description": "Total Tau (t-tau), Tau Phosphorylated at Thr181 (P-tau), Beta-amyloid 1-42, Alipoprotein E, Granulocyte Colony Stimulating Factor (GCSF), Interleukin 15, Interleukin 8, Vascular Endothelial Growth Factor and Proprotein Convertase Subtilisin/Kexin type 9 Concentrations"
+    },
+    {
+      "name": {
+        "value": "demographics"
+      },
+      "description": "Probable MCI Conversion, Sex, Mother Tongue, Ethnicity, Education Level, Profession, Height, Family History of AD"
+    },
+    {
+      "name": {
+        "value": "cardiovascular risk factors, aging, and incidence of dementia (CAIDE) dementia risk score"
+      },
+      "description": "Sub-scores and Total Score"
+    },
+    {
+      "name": {
+        "value": "clinical dementia rating"
+      },
+      "description": "Total Score"
+    },
+    {
+      "name": {
+        "value": "Montreal cognitive assessment (MOCA)"
+      },
+      "description": "Sub-scores and Total Score"
+    },
+    {
+      "name": {
+        "value": "medical history"
+      },
+      "description": "Treatment History of Hypertension, Hyperlipidemia, Diabetes. Questions on Possible Past Diagnosis of Cancer, Depression, Osteoporosis, Migraine, Asthma, Atrial Fibrillation and Arthritis."
+    },
+    {
+      "name": {
+        "value": "genetics"
+      },
+      "description": "APOE, BCHE, BDNF, HMGCR, TLR4, PPP2R1A, CDK5RAP2"
+    },
+    {
+      "name": {
+        "value": "lab results"
+      },
+      "description": "HbA1c, Thyroid Stimulating Hormone (TSH), Vitamin B12, Non-Fasting High Density Lipoprotein (HDL) Cholesterol, Non-Fasting Low Density Lipoprotein (LDL) Cholesterol"
+    },
+    {
+      "name": {
+        "value": "medication user"
+      },
+      "description": "List of Medication Taken Regularly (Sustained Use) and List of Medication Taken On As Needed Basis (PRN)"
+    },
+    {
+      "name": {
+        "value": "repeatable battery for the assessment of neuropsychological status (RBANS)"
+      },
+      "description": "Sub-scores and Total Score"
+    },
+    {
+      "name": {
+        "value": "smell identification"
+      },
+      "description": "University of Pennsylvania Smell Identification Test (UPSIT) Scores"
+    }
+  ],
+  "acknowledges": [
+    {
+      "name": "Grants",
+      "funders": [
+        {
+          "name": "Fonds de Recherche du Québec - Santé",
+          "abbreviation": "FRQ-S"
+        },
+        {
+          "name": "McGill University"
+        },
+        {
+          "name": "Pfizer Canada"
+        },
+        {
+          "name": "Douglas Hospital Research Centre and Foundation"
+        },
+        {
+          "name": "Fondation Lévesque"
+        },
+        {
+          "name": "Canada Fund for Innovation",
+          "abbreviation": "CFI"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "value": "prevention"
+    },
+    {
+      "value": "structural MRI"
+    },
+    {
+      "value": "functional MRI"
+    },
+    {
+      "value": "longitudinal"
+    },
+    {
+      "value": "cognition"
+    },
+    {
+      "value": "CSF protein levels"
+    },
+    {
+      "value": "genetics"
+    },
+    {
+      "value": "neurosensory"
+    }
+  ],
+  "extraProperties": [
+    {
+      "category": "subjects",
+      "values": [
+        {
+          "value": "348"
+        }
+      ]
+    },
+    {
+      "category": "files",
+      "values": [
+        {
+          "value": "80500"
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "CONP"
+        }
+      ]
+    },
+    {
+      "category": "origin_consortium",
+      "values": [
+        {
+          "value": "PREVENT-AD Research Group"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Montreal"
+        }
+      ]
+    },
+    {
+      "category": "origin_province",
+      "values": [
+        {
+          "value": "Quebec"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Canada"
+        }
+      ]
+    },
+    {
+      "category": "logo",
+      "values": [
+        {
+          "value": "logo.png"
+        }
+      ]
+    },
+    {
+      "category": "contact",
+      "values": [
+        {
+          "value": "Jennifer Tremblay-Mercier, jennifer.tremblay-mercier@douglas.mcgill.ca"
+        }
+      ]
+    }
+  ],
+  "hasPart": [
+    {
+      "title": "clinical-data",
+      "description": "Non-imaging data of a longitudinal study of pre-symptomatic Alzheimer's Disease. Longitudinal data from 348 participants are available. This includes neuropsychological tests, neurosensory assessments, general medical history, genetics and cerebrospinal fluid proteins levels.",
+      "dates": [
+        {
+          "date": "2020-11-30",
+          "type": {
+            "value": "release date"
+          }
+        },
+        {
+          "date": "2011-11-01",
+          "type": {
+            "value": "start date"
+          }
+        },
+        {
+          "date": "2020-03-10",
+          "type": {
+            "value": "end date"
+          }
+        }
+      ],
+      "creators": [
+        {
+          "name": "StoP-AD Center - Douglas Mental Health University Institute"
+        }
+      ],
+      "types": [
+        {
+          "information": {
+            "value": "demographics"
+          }
+        },
+        {
+          "information": {
+            "value": "neuropsychological tests"
+          }
+        },
+        {
+          "information": {
+            "value": "neurosensory assessments"
+          }
+        },
+        {
+          "information": {
+            "value": "general medical history"
+          }
+        },
+        {
+          "information": {
+            "value": "genetics"
+          }
+        },
+        {
+          "information": {
+            "value": "cerebrospinal fluid proteins levels"
+          }
+        }
+      ],
+      "distributions": [
+        {
+          "formats": [
+            "CSV",
+            "TXT"
+          ],
+          "size": 2.7,
+          "unit": {
+            "value": "MB"
+          },
+          "access": {
+            "landingPage": "https://registeredpreventad.loris.ca",
+            "authorizations": [
+              {
+                "value": "private"
+              }
+            ]
+          }
+        }
+      ],
+      "version": "2.0",
+      "privacy": "registered",
+      "licenses": [
+        {
+          "name": "https://registeredpreventad.loris.ca/images/PREVENT-AD_Terms_of_Use.png"
+        }
+      ],
+      "primaryPublications": [
+        {
+          "title": "Rationale and Structure for a new Centre for Studies on Prevention of Alzheimer's Disease (StoP-AD)",
+          "publicationVenue": "The Journal of Prevention of Alzheimer's Disease - JPAD Volume 3, Number 4, 2016",
+          "authors": [
+            {
+              "fullName": "John C.S. Breitner",
+              "firstName": "John",
+              "middleInitial": "C.S.",
+              "lastName": "Breitner",
+              "affiliations": [
+                {
+                  "name": "PREVENT-AD Research Group"
+                }
+              ]
+            },
+            {
+              "fullName": "Judes Poirier",
+              "lastName": "Poirier",
+              "affiliations": [
+                {
+                  "name": "PREVENT-AD Research Group"
+                }
+              ]
+            },
+            {
+              "fullName": "Pierre E. Etienne",
+              "firstName": "Pierre",
+              "middleInitial": "E.",
+              "lastName": "Etienne",
+              "affiliations": [
+                {
+                  "name": "PREVENT-AD Research Group"
+                }
+              ]
+            },
+            {
+              "fullName": "Jeannie M Leoutsakos",
+              "firstName": "Jeannie",
+              "middleInitial": "M",
+              "lastName": "Leoutsakos",
+              "affiliations": [
+                {
+                  "name": "PREVENT-AD Research Group"
+                }
+              ]
+            }
+          ],
+          "dates": [
+            {
+              "date": "2016-09-01",
+              "type": {
+                "value": "publication date"
+              }
+            }
+          ],
+          "identifier": {
+            "identifier": "http://dx.doi.org/10.14283/jpad.2016.121",
+            "identifierSource": "International DOI Foundation"
+          }
+        }
+      ],
+      "isAbout": [
+        {
+          "name": "Alzheimer's disease"
+        },
+        {
+          "identifier": {
+            "identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+			"identifierSource": "NCBI Taxonomy Database"
+          },
+          "name":"Homo sapiens"
+        },
+        {
+          "name": "older adult"
+        }
+      ],
+      "spatialCoverage": [
+        {
+          "name": "Québec (province)",
+          "description": "Province of Québec, Canada"
+        }
+      ],
+      "dimensions": [
+        {
+          "name": {
+            "value": "Age at Session"
+          },
+          "description": "Age in months at the time of the session"
+        },
+        {
+          "name": {
+            "value": "Test Language"
+          },
+          "description": "Language in which the participant choose to perform the tests in the research project"
+        },
+        {
+          "name": {
+            "value": "Handedness Interpretation"
+          },
+          "description": "The Edinburgh Handedness Inventory test result interpretation establishing hand dominance (right-handed, left-handed or ambidextrous)"
+        },
+        {
+          "name": {
+            "value": "Handedness Score"
+          },
+          "description": "The Edinburgh Handedness Inventory test score results"
+        },
+        {
+          "name": {
+            "value": "AD8 Dementia Screening Interview"
+          },
+          "description": "AD8 Individual Answers and Total Score"
+        },
+        {
+          "name": {
+            "value": "Central Auditory Processing Evaluation"
+          },
+          "description": "Test Scores"
+        },
+        {
+          "name": {
+            "value": "Clinical Information"
+          },
+          "description": "Blood Pressure, Pulse, Weight"
+        },
+        {
+          "name": {
+            "value": "CSF Protein Levels"
+          },
+          "description": "Total Tau (t-tau), Tau Phosphorylated at Thr181 (P-tau), Beta-amyloid 1-42, Alipoprotein E, Granulocyte Colony Stimulating Factor (GCSF), Interleukin 15, Interleukin 8, Vascular Endothelial Growth Factor and Proprotein Convertase Subtilisin/Kexin type 9 Concentrations"
+        },
+        {
+          "name": {
+            "value": "Demographics"
+          },
+          "description": "Probable MCI Conversion, Sex, Mother Tongue, Ethnicity, Education Level, Profession, Height, Family History of AD"
+        },
+        {
+          "name": {
+            "value": "Cardiovascular Risk Factors, Aging, and Incidence of Dementia (CAIDE) Dementia Risk Score"
+          },
+          "description": "Sub-scores and Total Score"
+        },
+        {
+          "name": {
+            "value": "Clinical Dementia Rating"
+          },
+          "description": "Total Score"
+        },
+        {
+          "name": {
+            "value": "Montreal Cognitive Assessment (MOCA)"
+          },
+          "description": "Sub-scores and Total Score"
+        },
+        {
+          "name": {
+            "value": "Medical History"
+          },
+          "description": "Treatment History of Hypertension, Hyperlipidemia, Diabetes. Questions on Possible Past Diagnosis of Cancer, Depression, Osteoporosis, Migraine, Asthma, Atrial Fibrillation and Arthritis."
+        },
+        {
+          "name": {
+            "value": "Genetics"
+          },
+          "description": "APOE, BCHE, BDNF, HMGCR, TLR4, PPP2R1A, CDK5RAP2"
+        },
+        {
+          "name": {
+            "value": "Lab results"
+          },
+          "description": "HbA1c, Thyroid Stimulating Hormone (TSH), Vitamin B12, Non-Fasting High Density Lipoprotein (HDL) Cholesterol, Non-Fasting Low Density Lipoprotein (LDL) Cholesterol"
+        },
+        {
+          "name": {
+            "value": "Medication User"
+          },
+          "description": "List of Medication Taken Regularly (Sustained Use) and List of Medication Taken On As Needed Basis (PRN)"
+        },
+        {
+          "name": {
+            "value": "Repeatable Battery for the Assessment of Neuropsychological Status (RBANS)"
+          },
+          "description": "Sub-scores and Total Score"
+        },
+        {
+          "name": {
+            "value": "Smell Identification"
+          },
+          "description": "University of Pennsylvania Smell Identification Test (UPSIT) Scores"
+        }
+      ],
+      "acknowledges": [
+        {
+          "name": "Grants",
+          "funders": [
+            {
+              "name": "Fonds de Recherche du Québec - Santé",
+              "abbreviation": "FRQ-S"
+            },
+            {
+              "name": "McGill University"
+            },
+            {
+              "name": "Pfizer Canada"
+            },
+            {
+              "name": "Douglas Hospital Research Centre and Foundation"
+            },
+            {
+              "name": "Fondation Lévesque"
+            },
+            {
+              "name": "Canada Fund for Innovation",
+              "abbreviation": "CFI"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "prevention"
+        },
+        {
+          "value": "longitudinal"
+        },
+        {
+          "value": "cognition"
+        },
+        {
+          "value": "CSF protein levels"
+        },
+        {
+          "value": "genetics"
+        },
+        {
+          "value": "neurosensory"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "subjects",
+          "values": [
+            {
+              "value": "348"
+            }
+          ]
+        },
+        {
+          "category": "files",
+          "values": [
+            {
+              "value": "18"
+            }
+          ]
+        },
+        {
+          "category": "CONP_status",
+          "values": [
+            {
+              "value": "CONP"
+            }
+          ]
+        },
+        {
+          "category": "origin_consortium",
+          "values": [
+            {
+              "value": "PREVENT-AD Research Group"
+            }
+          ]
+        },
+        {
+          "category": "origin_city",
+          "values": [
+            {
+              "value": "Montreal"
+            }
+          ]
+        },
+        {
+          "category": "origin_province",
+          "values": [
+            {
+              "value": "Quebec"
+            }
+          ]
+        },
+        {
+          "category": "origin_country",
+          "values": [
+            {
+              "value": "Canada"
+            }
+          ]
+        },
+        {
+          "category": "logo",
+          "values": [
+            {
+              "value": "logo.png"
+            }
+          ]
+        },
+        {
+          "category": "contact",
+          "values": [
+            {
+              "value": "Jennifer Tremblay-Mercier, jennifer.tremblay-mercier@douglas.mcgill.ca"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "images-in-BIDS",
+      "description": "Imaging data of a longitudinal study of pre-symptomatic Alzheimer's Disease. Longitudinal multi-modal MRI images from 348 participants are available in BIDS standard.",
+      "dates": [
+        {
+          "date": "2020-11-30",
+          "type": {
+            "value": "release date"
+          }
+        },
+        {
+          "date": "2020-12-15",
+          "type": {
+            "value": "last update date"
+          }
+        },
+        {
+          "date": "2011-11-01",
+          "type": {
+            "value": "start date"
+          }
+        },
+        {
+          "date": "2020-03-10",
+          "type": {
+            "value": "end date"
+          }
+        }
+      ],
+      "creators": [
+        {
+          "name": "StoP-AD Center - Douglas Mental Health University Institute"
+        }
+      ],
+      "types": [
+        {
+          "information": {
+            "value": "MRI"
+          }
+        },
+        {
+          "information": {
+            "value": "basic demographics"
+          }
+        }
+      ],
+      "distributions": [
+        {
+          "formats": [
+            "BIDS",
+            "NIfTI",
+            "TSV",
+            "JSON"
+          ],
+          "size": 314,
+          "unit": {
+            "value": "GB"
+          },
+          "access": {
+            "landingPage": "https://registeredpreventad.loris.ca",
+            "authorizations": [
+              {
+                "value": "private"
+              }
+            ]
+          }
+        }
+      ],
+      "version": "2.0",
+      "privacy": "registered",
+      "licenses": [
+        {
+          "name": "https://registeredpreventad.loris.ca/images/PREVENT-AD_Terms_of_Use.png"
+        }
+      ],
+      "primaryPublications": [
+        {
+          "title": "Rationale and Structure for a new Centre for Studies on Prevention of Alzheimer's Disease (StoP-AD)",
+          "publicationVenue": "The Journal of Prevention of Alzheimer's Disease - JPAD Volume 3, Number 4, 2016",
+          "authors": [
+            {
+              "fullName": "John C.S. Breitner",
+              "firstName": "John",
+              "middleInitial": "C.S.",
+              "lastName": "Breitner",
+              "affiliations": [
+                {
+                  "name": "PREVENT-AD Research Group"
+                }
+              ]
+            },
+            {
+              "fullName": "Judes Poirier",
+              "lastName": "Poirier",
+              "affiliations": [
+                {
+                  "name": "PREVENT-AD Research Group"
+                }
+              ]
+            },
+            {
+              "fullName": "Pierre E. Etienne",
+              "firstName": "Pierre",
+              "middleInitial": "E.",
+              "lastName": "Etienne",
+              "affiliations": [
+                {
+                  "name": "PREVENT-AD Research Group"
+                }
+              ]
+            },
+            {
+              "fullName": "Jeannie M Leoutsakos",
+              "firstName": "Jeannie",
+              "middleInitial": "M",
+              "lastName": "Leoutsakos",
+              "affiliations": [
+                {
+                  "name": "PREVENT-AD Research Group"
+                }
+              ]
+            }
+          ],
+          "dates": [
+            {
+              "date": "2016-09-01",
+              "type": {
+                "value": "publication date"
+              }
+            }
+          ],
+          "identifier": {
+            "identifier": "http://dx.doi.org/10.14283/jpad.2016.121",
+            "identifierSource": "International DOI Foundation"
+          }
+        }
+      ],
+      "isAbout": [
+        {
+          "name": "Alzheimer's disease"
+        },
+        {
+          "identifier": {
+            "identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+			"identifierSource": "NCBI Taxonomy Database"
+          },
+          "name": "Homo sapiens"
+        },
+        {
+          "name": "older adult"
+        }
+      ],
+      "spatialCoverage": [
+        {
+          "name": "Québec (province)",
+          "description": "Province of Québec, Canada"
+        }
+      ],
+      "dimensions": [
+        {
+          "name": {
+            "value": "age at MRI"
+          },
+          "description": "Age in months at the time of the MRI session"
+        },
+        {
+          "name": {
+            "value": "test language"
+          },
+          "description": "Language in which the participant choose to perform the tests in the research project"
+        },
+        {
+          "name": {
+            "value": "handedness interpretation"
+          },
+          "description": "The Edinburgh Handedness Inventory test result interpretation establishing hand dominance (right-handed, left-handed or ambidextrous)"
+        },
+        {
+          "name": {
+            "value": "handedness score"
+          },
+          "description": "The Edinburgh Handedness Inventory test score results"
+        },
+        {
+          "name": {
+            "value": "structural MRI"
+          },
+          "description": "T1W, FLAIR, T2*, multi-echo T2*, T2W, MP2RAGE, DWI 65 directions"
+        },
+        {
+          "name": {
+            "value": "functional MRI"
+          },
+          "description": "single-echo pCASL, resting BOLD, encoding/retrieval tasks BOLD"
+        }
+      ],
+      "acknowledges": [
+        {
+          "name": "Grants",
+          "funders": [
+            {
+              "name": "Fonds de Recherche du Québec - Santé",
+              "abbreviation": "FRQ-S"
+            },
+            {
+              "name": "McGill University"
+            },
+            {
+              "name": "Pfizer Canada"
+            },
+            {
+              "name": "Douglas Hospital Research Centre and Foundation"
+            },
+            {
+              "name": "Fondation Lévesque"
+            },
+            {
+              "name": "Canada Fund for Innovation",
+              "abbreviation": "CFI"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "prevention"
+        },
+        {
+          "value": "structural MRI"
+        },
+        {
+          "value": "functional MRI"
+        },
+        {
+          "value": "longitudinal"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "subjects",
+          "values": [
+            {
+              "value": "344"
+            }
+          ]
+        },
+        {
+          "category": "files",
+          "values": [
+            {
+              "value": "48232"
+            }
+          ]
+        },
+        {
+          "category": "CONP_status",
+          "values": [
+            {
+              "value": "CONP"
+            }
+          ]
+        },
+        {
+          "category": "origin_consortium",
+          "values": [
+            {
+              "value": "PREVENT-AD Research Group"
+            }
+          ]
+        },
+        {
+          "category": "origin_city",
+          "values": [
+            {
+              "value": "Montreal"
+            }
+          ]
+        },
+        {
+          "category": "origin_province",
+          "values": [
+            {
+              "value": "Quebec"
+            }
+          ]
+        },
+        {
+          "category": "origin_country",
+          "values": [
+            {
+              "value": "Canada"
+            }
+          ]
+        },
+        {
+          "category": "logo",
+          "values": [
+            {
+              "value": "logo.png"
+            }
+          ]
+        },
+        {
+          "category": "contact",
+          "values": [
+            {
+              "value": "Jennifer Tremblay-Mercier, jennifer.tremblay-mercier@douglas.mcgill.ca"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "images-in-MINC",
+      "description": "Imaging data of a longitudinal study of pre-symptomatic Alzheimer's Disease. Longitudinal multi-modal MRI images from 348 participants are available in MINC format.",
+      "dates": [
+        {
+          "date": "2020-11-30",
+          "type": {
+            "value": "release date"
+          }
+        },
+        {
+          "date": "2020-12-15",
+          "type": {
+            "value": "last update date"
+          }
+        },
+        {
+          "date": "2011-11-01",
+          "type": {
+            "value": "start date"
+          }
+        },
+        {
+          "date": "2020-03-10",
+          "type": {
+            "value": "end date"
+          }
+        }
+      ],
+      "creators": [
+        {
+          "name": "StoP-AD Center - Douglas Mental Health University Institute"
+        }
+      ],
+      "types": [
+        {
+          "information": {
+            "value": "MRI"
+          }
+        },
+        {
+          "information": {
+            "value": "basic demographics"
+          }
+        }
+      ],
+      "distributions": [
+        {
+          "formats": [
+            "MINC",
+            "JSON"
+          ],
+          "size": 252,
+          "unit": {
+            "value": "GB"
+          },
+          "access": {
+            "landingPage": "https://registeredpreventad.loris.ca",
+            "authorizations": [
+              {
+                "value": "private"
+              }
+            ]
+          }
+        }
+      ],
+      "version": "2.0",
+      "privacy": "registered",
+      "licenses": [
+        {
+          "name": "https://registeredpreventad.loris.ca/images/PREVENT-AD_Terms_of_Use.png"
+        }
+      ],
+      "primaryPublications": [
+        {
+          "title": "Rationale and Structure for a new Centre for Studies on Prevention of Alzheimer's Disease (StoP-AD)",
+          "publicationVenue": "The Journal of Prevention of Alzheimer's Disease - JPAD Volume 3, Number 4, 2016",
+          "authors": [
+            {
+              "fullName": "John C.S. Breitner",
+              "firstName": "John",
+              "middleInitial": "C.S.",
+              "lastName": "Breitner",
+              "affiliations": [
+                {
+                  "name": "PREVENT-AD Research Group"
+                }
+              ]
+            },
+            {
+              "fullName": "Judes Poirier",
+              "lastName": "Poirier",
+              "affiliations": [
+                {
+                  "name": "PREVENT-AD Research Group"
+                }
+              ]
+            },
+            {
+              "fullName": "Pierre E. Etienne",
+              "firstName": "Pierre",
+              "middleInitial": "E.",
+              "lastName": "Etienne",
+              "affiliations": [
+                {
+                  "name": "PREVENT-AD Research Group"
+                }
+              ]
+            },
+            {
+              "fullName": "Jeannie M Leoutsakos",
+              "firstName": "Jeannie",
+              "middleInitial": "M",
+              "lastName": "Leoutsakos",
+              "affiliations": [
+                {
+                  "name": "PREVENT-AD Research Group"
+                }
+              ]
+            }
+          ],
+          "dates": [
+            {
+              "date": "2016-09-01",
+              "type": {
+                "value": "publication date"
+              }
+            }
+          ],
+          "identifier": {
+            "identifier": "http://dx.doi.org/10.14283/jpad.2016.121",
+            "identifierSource": "International DOI Foundation"
+          }
+        }
+      ],
+      "isAbout": [
+        {
+          "name": "Alzheimer's disease"
+        },
+        {
+          "identifier": {
+            "identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+			"identifierSource": "NCBI Taxonomy Database"
+          },
+          "name":"Homo sapiens"
+        },
+        {
+          "name": "older adult"
+        }
+      ],
+      "spatialCoverage": [
+        {
+          "name": "Québec (province)",
+          "description": "Province of Québec, Canada"
+        }
+      ],
+      "dimensions": [
+        {
+          "name": {
+            "value": "age at MRI"
+          },
+          "description": "Age in months at the time of the MRI session"
+        },
+        {
+          "name": {
+            "value": "test language"
+          },
+          "description": "Language in which the participant choose to perform the tests in the research project"
+        },
+        {
+          "name": {
+            "value": "structural MRI"
+          },
+          "description": "T1W, FLAIR, T2*, multi-echo T2*, T2W, MP2RAGE, DWI 65 directions"
+        },
+        {
+          "name": {
+            "value": "functional MRI"
+          },
+          "description": "single-echo pCASL, resting BOLD, encoding/retrieval tasks BOLD"
+        }
+      ],
+      "acknowledges": [
+        {
+          "name": "Grants",
+          "funders": [
+            {
+              "name": "Fonds de Recherche du Québec - Santé",
+              "abbreviation": "FRQ-S"
+            },
+            {
+              "name": "McGill University"
+            },
+            {
+              "name": "Pfizer Canada"
+            },
+            {
+              "name": "Douglas Hospital Research Centre and Foundation"
+            },
+            {
+              "name": "Fondation Lévesque"
+            },
+            {
+              "name": "Canada Fund for Innovation",
+              "abbreviation": "CFI"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "value": "prevention"
+        },
+        {
+          "value": "structural MRI"
+        },
+        {
+          "value": "functional MRI"
+        },
+        {
+          "value": "longitudinal"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "subjects",
+          "values": [
+            {
+              "value": "344"
+            }
+          ]
+        },
+        {
+          "category": "files",
+          "values": [
+            {
+              "value": "32250"
+            }
+          ]
+        },
+        {
+          "category": "CONP_status",
+          "values": [
+            {
+              "value": "CONP"
+            }
+          ]
+        },
+        {
+          "category": "origin_consortium",
+          "values": [
+            {
+              "value": "PREVENT-AD Research Group"
+            }
+          ]
+        },
+        {
+          "category": "origin_city",
+          "values": [
+            {
+              "value": "Montreal"
+            }
+          ]
+        },
+        {
+          "category": "origin_province",
+          "values": [
+            {
+              "value": "Quebec"
+            }
+          ]
+        },
+        {
+          "category": "origin_country",
+          "values": [
+            {
+              "value": "Canada"
+            }
+          ]
+        },
+        {
+          "category": "logo",
+          "values": [
+            {
+              "value": "logo.png"
+            }
+          ]
+        },
+        {
+          "category": "contact",
+          "values": [
+            {
+              "value": "Jennifer Tremblay-Mercier, jennifer.tremblay-mercier@douglas.mcgill.ca"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
