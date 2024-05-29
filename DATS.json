@@ -1440,6 +1440,14 @@
             }
           ]
         },
+		{
+      		"category": "registrationPage",
+      		"values": [
+       		 	{
+          			"value": "https://registeredpreventad.loris.ca/login/request-account/"
+        	 	}
+      		]
+    	},
         {
           "category": "contact",
           "values": [
