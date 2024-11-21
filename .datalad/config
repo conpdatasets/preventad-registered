@@ -1,2 +1,4 @@
 [datalad "dataset"]
 	id = b7c7df60-2a83-11eb-935d-525400a81410
+[credentials]
+	force-ask = true

@@ -39,17 +39,20 @@
   "types": [
     {
       "information": {
-        "value": "MRI"
+        "value": "MRI",
+		"valueIRI": "http://uri.interlex.org/ilx_0778945"
       }
     },
     {
       "information": {
-        "value": "demographics"
+        "value": "demographics",
+		"valueIRI": "http://uri.interlex.org/ilx_0103016"
       }
     },
     {
       "information": {
-        "value": "neuropsychological tests"
+        "value": "neuropsychological tests",
+		"valueIRI": "http://uri.interlex.org/ilx_0485663"
       }
     },
     {
@@ -59,17 +62,20 @@
     },
     {
       "information": {
-        "value": "general medical history"
+        "value": "general medical history",
+		"valueIRI": "http://uri.interlex.org/ilx_0100311"
       }
     },
     {
       "information": {
-        "value": "genetics"
+        "value": "genetics",
+		"valueIRI": "http://uri.interlex.org/ilx_0104598"
       }
     },
     {
       "information": {
-        "value": "cerebrospinal fluid proteins levels"
+        "value": "cerebrospinal fluid proteins levels",
+		"valueIRI": "http://uri.interlex.org/ilx_0483441"
       }
     }
   ],
